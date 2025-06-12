@@ -5,6 +5,18 @@
 body{
     background: rgb(110, 108, 108);
 }
+#start-btn {
+    background: rgb(56, 117, 56);
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+}
+
 
 
 .app{

@@ -141,6 +141,16 @@ const questions = [
 const questionElement=document.getElementById("question");
 const answerButton=document.getElementById("answer-buttons");
 const nextButton=document.getElementById("next-btn");
+const startButton = document.getElementById("start-btn");
+const quizContainer = document.querySelector(".quiz");
+
+startButton.addEventListener('click', () => {
+    startButton.style.display = 'none';
+    quizContainer.style.display = 'block';
+    startQuiz();
+});
+
+// Remove this line: startQuiz();
 
 
 let currentQuestionIndex=0;
@@ -217,4 +227,4 @@ nextButton.addEventListener('click',()=>{
     startQuiz();
   }
 })
-startQuiz()
+// startQuiz()
